@@ -1,0 +1,19 @@
+{
+  
+  "name": "onechuan-server",
+  "description": "```cmd pnpm run dev ```",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+	"dev":"nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "nodemon": "^2.0.16"
+  }
+}
